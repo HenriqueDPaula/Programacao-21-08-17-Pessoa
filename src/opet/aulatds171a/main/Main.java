@@ -8,9 +8,10 @@ import opet.aulatds171a.utilitario.Leitor;
 public class Main {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		
+		// Informa aqui quantos objetos Pessoa deseja criar
 		int limitePessoas = 2;
+		
 		Pessoa[] arrPessoa = new Pessoa[limitePessoas];
 		for(int i=0;i<limitePessoas;i++) {
 			arrPessoa[i] = montarPessoa();
